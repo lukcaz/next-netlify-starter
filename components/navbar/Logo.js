@@ -1,5 +1,10 @@
+import Link from '../Link'
+
 export default function Logo() {
     return (
-        <div className="font-semibold text-2xl">Azenathy</div>
+        <Link
+        href='/'>
+        <div className="font-bold text-3xl">Azenathy</div>
+        </Link>
     )
 }

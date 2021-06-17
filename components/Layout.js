@@ -3,14 +3,16 @@ import Navbar from "./navbar/Navbar";
 import SectionContainer from './SectionContainer'
 import Link from "next/link";
 import headerNavLinks from '/data/headerNavLinks'
+import Logo from "./navbar/Logo";
 
 const Layout = ({ children }) => {
 return (
     <SectionContainer>
     <div className="flex flex-col justify-between h-screen">
-      <header className="flex items-center justify-between py-10">
+      <header className="flex w-full  items-center justify-between py-10">
+          <Logo />
         <div className="flex items-center text-base leading-5">
-          <div className="hidden sm:block">
+          <div className="hidden sm:block w-72 md:flex justify-between ">
             {headerNavLinks.map((link) => (
               <Link
                 key={link.title}
@@ -25,17 +27,10 @@ return (
           <Navbar />
         </div>
       </header>
-      <main className="mb-auto">{children}</main>
+      <main className="flex flex-grow justify-center">{children}</main>
       <Footer />
     </div>
   </SectionContainer>
 )
 }
 export default Layout;
-{/* return (
-        <div className="min-h-screen bg-gray-200 flex flex-col">
-            <Navbar />
-                <div className="flex flex-grow"> { children } </div>
-            <Footer />
-        </div>
-     */}

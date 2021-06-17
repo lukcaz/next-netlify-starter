@@ -1,14 +1,12 @@
 import React from 'react'
 import '@styles/globals.css'
-
 import Layout from '@components/Layout';
-import App from 'next/app'
 
 
-class MyApp extends App {
-  render() {
-    const { Component, pageProps } = this.props;
-    
+
+/* class MyApp extends App { */
+  export default function App({ Component, pageProps }) {
+
 
   return (
 
@@ -21,6 +19,3 @@ class MyApp extends App {
     
     )
   }
-}
-
-export default MyApp
