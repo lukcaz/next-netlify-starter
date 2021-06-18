@@ -11,13 +11,13 @@ return (
     <div className="flex flex-col justify-between h-screen">
       <header className="flex w-full  items-center justify-between py-10">
           <Logo />
-        <div className="flex items-center text-base leading-5">
-          <div className="hidden sm:block w-72 md:flex justify-between ">
+        <div className="flex items-center text-xl font-poppins  leading-5">
+          <div className="hidden sm:block w-72 md:flex justify-between  text-gray-800">
             {headerNavLinks.map((link) => (
               <Link
                 key={link.title}
                 href={link.href}
-                className="p-1 font-medium text-gray-900 sm:p-4 dark:text-gray-100"
+                className="p-1  font-medium text-gray-500 sm:p-4 "
               >
                 {link.title}
               </Link>
