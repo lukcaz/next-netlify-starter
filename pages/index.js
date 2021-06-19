@@ -28,9 +28,9 @@ export default function Home() {
         </div>
       </div>
 
-        <div className="flex flex-col items-center text-center lg:w-1/2 ">
-          <h1 className="font-bold l text-2xl lg:text-5xl text-gray-700 mb-6 font-poppins"> A Life of Devotion to God</h1>
-          <p className="px-2 w-80 lg:w-5/6 pb-6 lg:text-left text-gray-700 lg:text-2xl">An of most beautiful latin american voice of gospel music presents your work. 
+        <div className="flex flex-col items-center lg:items-start text-center lg:text-left lg:w-1/2 ">
+          <h1 className="font-semibold text-2xl lg:text-5xl text-gray-700 mb-6 font-poppins "> A Life of Devotion to God</h1>
+          <p className="px-2 w-full lg: pb-6 lg:text-justify text-gray-700 lg:text-3xl">An of most beautiful latin american voice of gospel music presents your work. 
             Discover the saga of a Brazilian singer with over 20 years of career. </p>
         </div>
 
