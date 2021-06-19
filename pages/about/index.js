@@ -3,9 +3,9 @@ import Link from 'next/link'
 
 export default function About() {
     return (
-        <div exit={{opacity: 0}} className="w-full mx-2 rounded-3xl md:flex md:justify-center">
+        <div className="w-full rounded-3xl md:flex lg:items-center md:justify-between  h-full ">
                       <div className="flex items-center justify-center md:w-1/2  ">
-                            <img className="h-11/12 w-full rounded-2xl shadow-lg mb-6" src="/azenathy.jpg" alt="" />
+                            <img className="h-11/12 w-full rounded-2xl shadow-lg mb-6" src="https://res.cloudinary.com/lukssk/image/upload/v1624081715/azenathy_hdmj2o.jpg" alt="" />
                      </div>
            
             <div className=" flex items-center text-center justify-center md:w-1/2 ">

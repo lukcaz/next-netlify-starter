@@ -7,21 +7,21 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <div className=" flex flex-col items-center justify-around lg:justify-center lg:w-full  lg:flex-row lg:items-center " >
+    <div className=" flex flex-col h-full items-center justify-around lg:justify-center lg:w-full  lg:flex-row lg:items-center " >
       <Head>
         <title>Azenathy Music</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="lg:w-1/2 h-full flex items-center">
-        <div className="lg:hidden h-96 lg:h-5/6 w-60 lg:w-11/12 mb-2  bg-cover rounded-2xl flex items-center shadow-2xl justify-center "
+        <div className="lg:hidden h-96 lg:h-5/6 w-60 lg:w-11/12 mb-8  bg-cover rounded-2xl flex items-center shadow-2xl justify-center "
           style={{ 
-            backgroundImage: `url("/coverMobile.png")`,
+            backgroundImage: `url("https://res.cloudinary.com/lukssk/image/upload/v1624081492/coverMobile_zg1fub.png")`,
             width:"790",
             }} >
         </div>
         <div className="hidden  h-96 lg:h-727 w-60 lg:w-460 mb-2 rounded-2xl bg-cover lg:flex items-center shadow-2xl justify-center "
           style={{ 
-            backgroundImage: `url("/desktop-cover.png")`,
+            backgroundImage: `url("https://res.cloudinary.com/lukssk/image/upload/v1624081510/DesktopCover2_at06xr.png")`,
             width:"410",
             height:"648"
             }} >
