@@ -10,8 +10,8 @@ export default function About() {
                                 animate={{ x:0, opacity:1 }}
                                 transition={{delay: 0.2 }} */
             >
-                <div className="round w-auto h-22  bg-red-300">
-                    <img src="/logo.png" alt="" />
+                <div className="round w-auto h-22">
+                    <img src="https://res.cloudinary.com/lukssk/image/upload/v1624160922/nsingerLogo_pjsck6.png" alt="" />
                 </div>
             </div>
             <div className="flex items-center text-center justify-center md:w-1/2 "
